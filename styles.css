@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    background-color: #ff5677;
+    color: white;
+
+}
+
+.contactoColor {
+    background-color: #4c3f91;
+    border-radius: 10px;
+}
+
+.aSub {
+    color: white;
+}
+
+.colorB {
+    background-color: #4c3f91;
+    color: white;
+}
+
+main {
+    background-image: url(./images/fondo.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+
+main a:hover {
+    color: white;
+    background-color: #ff5677;
+    border-color: black;
+    transition: all 1s;
+}
+
+.aFooter {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.titulo {
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke: 0.1px black;
+    color: white;
+}
+
+.parrafo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: white
+}
+
+.parrafoFooter {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.imgFooter {
+    width: 50px;
+    height: 50px;
+}
+
+.fondoDiv {
+    background-color: rgba(255, 86, 119, 20%);
+}
+
+.fondoDivBlack {
+    background-color: black;
+    border: 5px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: 5px solid #ff5677;
+
+}
+
+.DivColor--quienesSomos {
+    background-color: #4c3f91;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.DivColor--nuestraUbicacion {
+    background-color: #9145b6;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.DivColor--acercadeNuestroProveedor {
+    background-color: #B958A5;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.main__section__div {
+    background-color: black;
+    border: 5px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: 5px solid #ff5677;
+}
+
+.botonGaleria {
+    border: 3px solid #ff5677;
+    width: 181px;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.botonGaleriaB {
+    border: 3px solid #ff5677;
+    width: 181px;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.textTamano2 {
+    font-size: 2rem;
+}
+
+footer {
+    background-image: linear-gradient(to right, #ff5677, #4c3f91);
+    overflow: hidden;
+}
+
+.transformar:hover {
+    transform: scale(1.5, 1.5);
+    transition: transform 1s;
+}
+
+/* MENU DE NAVEGACIÓN */
+
+header {
+    background-image: linear-gradient(to right, #ff5677, #4c3f91);
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    flex-basis: 100%;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+ul li:hover {
+    background-color: #ff5677;
+    border-color: black;
+    transition: all 1s;
+}
+
+ul li {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 3px;
+    border-top: 3px solid #4c3f91;
+}
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    color: white;
+    border-color: white;
+    transition: all 1s;
+}
+
+/* MENU DE NAVEGACIÓN END */
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1.5fr 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0.3rem 0.3rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "s1 s1 s1 s1 s2 s2"
+        "s1 s1 s1 s1 s2 s2"
+        "s1 s1 s1 s1 s2 s2"
+        "s8 s8 s8 s9 s9 s9"
+        "s8 s8 s8 s9 s9 s9"
+        "s4 s4 s5 s5 s7 s7"
+        "s4 s4 s5 s5 s7 s7"
+        "s4 s4 s5 s5 s7 s7"
+        "s10 s10 s10 s13 s13 s13"
+        "s10 s10 s10 s13 s13 s13"
+        "s10 s10 s10 s13 s13 s13";
+}
+
+.fondoGrilla {
+    background-color: #4c3f91;
+    border: 5px;
+    border-radius: 3px;
+}
+
+.grilla div img {
+    width: 100%;
+    height: 100%;
+}
+
+.s1 {
+    grid-area: s1;
+}
+
+.s2 {
+    grid-area: s2;
+}
+
+.s8 {
+    grid-area: s8;
+}
+
+.s9 {
+    grid-area: s9;
+}
+
+.s4 {
+    grid-area: s4;
+}
+
+.s5 {
+    grid-area: s5;
+}
+
+.s7 {
+    grid-area: s7;
+}
+
+.s10 {
+    grid-area: s10;
+}
+
+.s13 {
+    grid-area: s13;
+}
+
+.VloversImg {
+    width: 100%;
+    height: 100%;
+}
+
+.grillaMuebles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.5fr 0.5fr 0.2fr 0.2fr 0.5fr 0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr 0.5fr 0.3fr 0.3fr 0.4fr 0.4fr;
+    gap: 0.2rem 0.2rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "m12 m12 m6 m6"
+        "m12 m12 m6 m6"
+        "m8 m8 m8 m8"
+        "m8 m8 m8 m8"
+        "m11 m10 m13 m13"
+        "m11 m10 m13 m13"
+        "m15 m15 m15 m15"
+        "m15 m15 m15 m15"
+        "m4 m4 m3 m3"
+        "m4 m4 m3 m3"
+        "m14 m14 m14 m2"
+        "m14 m14 m14 m2"
+        "m1 m1 m1 m1"
+        "m1 m1 m1 m1"
+        "m5 m5 m9 m9"
+        "m5 m5 m9 m9"
+        "m7 m7 m7 m7"
+        "m7 m7 m7 m7";
+}
+
+.grillaMuebles div img {
+    width: 100%;
+    height: 100%;
+}
+
+.m12 {
+    grid-area: m12;
+}
+
+.m6 {
+    grid-area: m6;
+}
+
+.m8 {
+    grid-area: m8;
+}
+
+.m11 {
+    grid-area: m11;
+}
+
+.m10 {
+    grid-area: m10;
+}
+
+.m13 {
+    grid-area: m13;
+}
+
+.m15 {
+    grid-area: m15;
+}
+
+.m4 {
+    grid-area: m4;
+}
+
+.m3 {
+    grid-area: m3;
+}
+
+.m14 {
+    grid-area: m14;
+}
+
+.m2 {
+    grid-area: m2;
+}
+
+.m1 {
+    grid-area: m1;
+}
+
+.m5 {
+    grid-area: m5;
+}
+
+.m9 {
+    grid-area: m9;
+}
+
+.m7 {
+    grid-area: m7;
+}
+
+
+.grillaTAP {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    gap: 0.2rem 0.2rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "t1 t1 t2 t2 t3 t3"
+        "t1 t1 t2 t2 t3 t3"
+        "t4 t4 t5 t5 t6 t6"
+        "t4 t4 t5 t5 t6 t6"
+        "t7 t7 t8 t8 t9 t9"
+        "t7 t7 t8 t8 t9 t9"
+        "t10 t10 t11 t11 t12 t12"
+        "t10 t10 t11 t11 t12 t12"
+        "t13 t13 t14 t14 t15 t15"
+        "t13 t13 t14 t14 t15 t15"
+        "t16 t16 t17 t17 t18 t18"
+        "t16 t16 t17 t17 t18 t18"
+        "t19 t19 t20 t20 t21 t21"
+        "t19 t19 t20 t20 t21 t21";
+}
+
+.t1 {
+    grid-area: t1;
+}
+
+.t2 {
+    grid-area: t2;
+}
+
+.t3 {
+    grid-area: t3;
+}
+
+.t4 {
+    grid-area: t4;
+}
+
+.t5 {
+    grid-area: t5;
+}
+
+.t6 {
+    grid-area: t6;
+}
+
+.t7 {
+    grid-area: t7;
+}
+
+.t8 {
+    grid-area: t8;
+}
+
+.t9 {
+    grid-area: t9;
+}
+
+.t10 {
+    grid-area: t10;
+}
+
+.t11 {
+    grid-area: t11;
+}
+
+.t12 {
+    grid-area: t12;
+}
+
+.t13 {
+    grid-area: t13;
+}
+
+.t14 {
+    grid-area: t14;
+}
+
+.t15 {
+    grid-area: t15;
+}
+
+.t16 {
+    grid-area: t16;
+}
+
+.t17 {
+    grid-area: t17;
+}
+
+.t18 {
+    grid-area: t18;
+}
+
+.t19 {
+    grid-area: t19;
+}
+
+.t20 {
+    grid-area: t20;
+}
+
+.t21 {
+    grid-area: t21;
+}
+
+
+.grillaTAP div img {
+    width: 100%;
+    height: 100%;
+}
+
+.grillaSJ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 0.4fr 0.4fr 0.4fr 0.4fr 0.5fr 1fr 0.4fr 0.4fr 0.5fr 0.4fr;
+    gap: 0.3rem 0.3rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "s1 s2 s3"
+        "s1 s2 s3"
+        "j2 j2 j2"
+        "j3 j6 s4"
+        "j3 j6 s4"
+        "j8 j8 j8"
+        "j8 j8 j8"
+        "s6 s7 s8"
+        "s6 s7 s8"
+        "s5 j1 j1"
+        "s5 j1 j1"
+        "j7 j7 j7"
+        "j7 j7 j7"
+        "j4 j4 s1c"
+        "j4 j4 s1c"
+        "j5 j5 s2c"
+        "j5 j5 s2c";
+}
+
+.grillaSJ div img {
+    width: 100%;
+    height: 100%;
+}
+
+.s1 {
+    grid-area: s1;
+}
+
+.s2 {
+    grid-area: s2;
+}
+
+.s3 {
+    grid-area: s3;
+}
+
+.j2 {
+    grid-area: j2;
+}
+
+.j3 {
+    grid-area: j3;
+}
+
+.j6 {
+    grid-area: j6;
+}
+
+.s4 {
+    grid-area: s4;
+}
+
+.j8 {
+    grid-area: j8;
+}
+
+.s6 {
+    grid-area: s6;
+}
+
+.s7 {
+    grid-area: s7;
+}
+
+.s8 {
+    grid-area: s8;
+}
+
+.s5 {
+    grid-area: s5;
+}
+
+.j1 {
+    grid-area: j1;
+}
+
+.j7 {
+    grid-area: j7;
+}
+
+.j4 {
+    grid-area: j4;
+}
+
+.j5 {
+    grid-area: j5;
+}
+
+.s1c {
+    grid-area: s1c;
+}
+
+.s2c {
+    grid-area: s2c;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    ul li {
+        border-radius: 3px;
+        border-top: none;
+    }
+
+}
+
+@media screen and (min-width: 1174px) {
+    ul li {
+        border-radius: 3px;
+        border-top: 3px solid #4c3f91;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .parrafo {
+        font-size: 1rem;
+    }
+
+    .imgFooter {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoFooter {
+        width: 120px;
+        height: 120px;
+    }
+
+    .gridTapizado {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .parrafo {
+        font-size: 1rem;
+    }
+
+    .imgFooter {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoFooter {
+        width: 90px;
+        height: 90px;
+    }
+
+    .flexDirection {
+        flex-direction: column;
+    }
+
+    .gridTapizado {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .imgres {
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
