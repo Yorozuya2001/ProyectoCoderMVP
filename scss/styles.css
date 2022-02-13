@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif; }
+
+/*PARTE HEADER */
+.header {
+  background-image: linear-gradient(to right, #ff5677, #4c3f91);
+  overflow: hidden; }
+  .header__logo {
+    width: 150px;
+    height: 150px; }
+  .header__ul {
+    flex-basis: 100%;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header__ul__li {
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      border-top: 3px solid #4c3f91; }
+      .header__ul__li__a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.3rem;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        text-align: center; }
+      .header__ul__li__a:hover {
+        color: white;
+        border-color: white;
+        transition: all 1s; }
+    .header__ul__li:hover {
+      background-color: #ff5677;
+      border-color: black;
+      transition: all 1s; }
+
+/*PARTE HEADER */
+/* PARTE MAIN (TODOS LOS HTML) */
+.main {
+  background-image: url(../images/fondo.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
