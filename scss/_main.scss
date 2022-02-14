@@ -3,10 +3,18 @@
 $fuente: 1rem;
 $color_a: #4c3f91;
 $color_b: #ff5677;
+$color_c: #9145b6;
+$color_d: #B958A5;
 $RGBOp: rgba(255, 86, 119, 0.2);
 $color_def: white;
 $color_black: black;
 $full: 100%;
+
+$MapColores:(quienesSomos: $color_a,
+    nuestraUbicacion: $color_c,
+    acercadeNuestroProveedor: $color_d,
+
+);
 
 .main {
     background-image: url(../images/fondo.jpg);
@@ -67,6 +75,17 @@ $full: 100%;
 
     &__section {
         background-color: $RGBOp;
+
+        @each $Divs,
+        $Colores in $MapColores {
+
+            &__DivColor--#{$Divs} {
+                background-color: $Colores;
+                border-radius: 10px;
+                border: 3px solid black;
+            }
+        }
+
 
         &__carouselTitleDiv {
             background-color: $RGBOp;

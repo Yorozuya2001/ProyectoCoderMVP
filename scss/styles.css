@@ -87,6 +87,18 @@
     height: 100%; }
   .main__section {
     background-color: rgba(255, 86, 119, 0.2); }
+    .main__section__DivColor--quienesSomos {
+      background-color: #4c3f91;
+      border-radius: 10px;
+      border: 3px solid black; }
+    .main__section__DivColor--nuestraUbicacion {
+      background-color: #9145b6;
+      border-radius: 10px;
+      border: 3px solid black; }
+    .main__section__DivColor--acercadeNuestroProveedor {
+      background-color: #B958A5;
+      border-radius: 10px;
+      border: 3px solid black; }
     .main__section__carouselTitleDiv {
       background-color: rgba(255, 86, 119, 0.2);
       border-radius: 100px; }
