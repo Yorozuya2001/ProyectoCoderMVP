@@ -118,7 +118,9 @@
   .footer__Div__aFooter {
     text-decoration: underline; }
   .footer__Div__aFooter:hover {
-    color: white; }
+    color: black;
+    transform: scale(1.2, 1.2);
+    transition: transform 0.7s; }
   .footer__Div__imgLogoF {
     width: 150px;
     height: 150px; }
@@ -141,6 +143,9 @@
       .footer__Div__imgFooter {
         width: 40px;
         height: 40px; } }
+  .footer__Div__transform:hover {
+    transform: scale(1.5, 1.5);
+    transition: transform 0.7s; }
 
 /*PARTE FOOTER */
 @media screen and (min-width: 992px) {

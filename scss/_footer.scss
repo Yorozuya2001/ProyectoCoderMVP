@@ -5,6 +5,7 @@ $color_a: #4c3f91;
 $color_b: #ff5677;
 $gradiente: linear-gradient(to right, $color_b, $color_a);
 $color_def: white;
+$color_c: black;
 
 /*PARTE FOOTER */
 
@@ -39,7 +40,9 @@ $color_def: white;
         }
 
         &__aFooter:hover {
-            color: $color_def;
+            color: $color_c;
+            transform: scale(1.2, 1.2);
+            transition: transform 0.7s;
         }
 
         &__imgLogoF {
@@ -71,6 +74,11 @@ $color_def: white;
                 width: ($ancho)-110;
                 height: ($alto)-110;
             }
+        }
+
+        &__transform:hover {
+            transform: scale(1.5, 1.5);
+            transition: transform 0.7s;
         }
     }
 
