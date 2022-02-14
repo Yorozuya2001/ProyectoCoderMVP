@@ -53,10 +53,19 @@
     font-family: 'Bebas Neue', sans-serif;
     -webkit-text-stroke: 0.1px black;
     color: white; }
+    @media only screen and (max-width: 768px) {
+      .main .titulo {
+        font-size: 3rem; } }
+    @media only screen and (max-width: 576px) {
+      .main .titulo {
+        font-size: 2rem; } }
   .main .parrafo {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
     color: white; }
+    @media only screen and (max-width: 576px) {
+      .main .parrafo {
+        font-size: 1rem; } }
   .main .botonGaleria {
     border: 3px solid #ff5677;
     width: 181px;
@@ -91,18 +100,55 @@
 /*PARTE FOOTER */
 .footer {
   background-image: linear-gradient(to right, #ff5677, #4c3f91); }
-  .footer__parrafoFooter, .footer__aFooter {
+  @media only screen and (max-width: 768px) {
+    .footer__Div {
+      flex-direction: column; } }
+  @media only screen and (max-width: 576px) {
+    .footer__Div {
+      flex-direction: column; } }
+  .footer__Div__parrafoFooter, .footer__Div__aFooter {
     font-size: 1.5rem;
     color: white; }
-  .footer__aFooter {
+    @media only screen and (max-width: 576px) {
+      .footer__Div__parrafoFooter, .footer__Div__aFooter {
+        font-size: 1rem; } }
+    @media only screen and (max-width: 768px) {
+      .footer__Div__parrafoFooter, .footer__Div__aFooter {
+        font-size: 1rem; } }
+  .footer__Div__aFooter {
     text-decoration: underline; }
-  .footer__aFooter:hover {
+  .footer__Div__aFooter:hover {
     color: white; }
-  .footer__imgLogoF {
+  .footer__Div__imgLogoF {
     width: 150px;
     height: 150px; }
-  .footer__imgFooter {
+    @media only screen and (max-width: 768px) {
+      .footer__Div__imgLogoF {
+        width: 120px;
+        height: 120px; } }
+    @media only screen and (max-width: 576px) {
+      .footer__Div__imgLogoF {
+        width: 110px;
+        height: 110px; } }
+  .footer__Div__imgFooter {
     width: 50px;
     height: 50px; }
+    @media only screen and (max-width: 768px) {
+      .footer__Div__imgFooter {
+        width: 70px;
+        height: 70px; } }
+    @media only screen and (max-width: 576px) {
+      .footer__Div__imgFooter {
+        width: 40px;
+        height: 40px; } }
 
 /*PARTE FOOTER */
+@media screen and (min-width: 992px) {
+  .header__ul__li {
+    border-radius: 3px;
+    border-top: none; } }
+
+@media screen and (min-width: 1174px) {
+  .header__ul__li {
+    border-radius: 3px;
+    border-top: 3px solid #4c3f91; } }

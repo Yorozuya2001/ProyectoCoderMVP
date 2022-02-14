@@ -19,12 +19,25 @@ $full: 100%;
         font-family: 'Bebas Neue', sans-serif;
         -webkit-text-stroke: 0.1px black;
         color: white;
+
+        @include tablet {
+            font-size: ($fuente)+2;
+        }
+
+        @include smartphones {
+            font-size: ($fuente)+1;
+        }
+
     }
 
     .parrafo {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: ($fuente)+0.5;
         color: white;
+
+        @include smartphones {
+            font-size: ($fuente);
+        }
     }
 
     .botonGaleria {
