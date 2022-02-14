@@ -35,11 +35,11 @@
       .header__ul__li__a:hover {
         color: white;
         border-color: white;
-        transition: all 1s; }
+        transition: all 0.5s; }
     .header__ul__li:hover {
       background-color: #ff5677;
       border-color: black;
-      transition: all 1s; }
+      transition: all 0.5s; }
 
 /*PARTE HEADER */
 /* PARTE MAIN (TODOS LOS HTML) */
@@ -48,3 +48,61 @@
   min-height: 100%;
   background-size: cover;
   background-attachment: fixed; }
+  .main .titulo {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke: 0.1px black;
+    color: white; }
+  .main .parrafo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: white; }
+  .main .botonGaleria {
+    border: 3px solid #ff5677;
+    width: 181px;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white; }
+  .main .botonGaleria:hover {
+    background-color: #ff5677;
+    border-color: black;
+    transition: all 1s; }
+  .main .img {
+    width: 100%;
+    height: 100%; }
+  .main__section {
+    background-color: rgba(255, 86, 119, 0.2); }
+    .main__section__carouselTitleDiv {
+      background-color: rgba(255, 86, 119, 0.2);
+      border-radius: 100px; }
+    .main__section__div {
+      background-color: black;
+      border: 5px;
+      border-radius: 10px;
+      padding-top: 30px;
+      border: 5px solid #ff5677; }
+
+/*PARTE FOOTER */
+.footer {
+  background-image: linear-gradient(to right, #ff5677, #4c3f91); }
+  .footer__parrafoFooter, .footer__aFooter {
+    font-size: 1.5rem;
+    color: white; }
+  .footer__aFooter {
+    text-decoration: underline; }
+  .footer__aFooter:hover {
+    color: white; }
+  .footer__imgLogoF {
+    width: 150px;
+    height: 150px; }
+  .footer__imgFooter {
+    width: 50px;
+    height: 50px; }
+
+/*PARTE FOOTER */

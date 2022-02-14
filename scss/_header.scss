@@ -49,14 +49,14 @@ $f-size: 1rem;
             &__a:hover {
                 color: $color_def;
                 border-color: $color_def;
-                transition: all 1s;
+                transition: all 0.5s;
             }
         }
 
         &__li:hover {
             background-color: $color_b;
             border-color: $color_black;
-            transition: all 1s;
+            transition: all 0.5s;
         }
     }
 

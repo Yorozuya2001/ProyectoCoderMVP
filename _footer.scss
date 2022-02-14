@@ -1,0 +1,40 @@
+$ancho: 150px;
+$alto: 150px;
+$fuente: 1.5rem;
+$color_a: #4c3f91;
+$color_b: #ff5677;
+$gradiente: linear-gradient(to right, $color_b, $color_a);
+$color_def: white;
+
+/*PARTE FOOTER */
+
+.footer {
+    background-image: $gradiente;
+
+
+    &__parrafoFooter {
+        font-size: $fuente;
+        color: $color_def;
+    }
+
+    &__aFooter {
+        @extend .footer__parrafoFooter;
+        text-decoration: underline;
+    }
+
+    &__aFooter:hover {
+        color: $color_def;
+    }
+
+    &__imgLogoF {
+        width: $ancho;
+        height: $alto;
+    }
+
+    &__imgFooter {
+        width: ($ancho)-100;
+        height: ($alto)-100;
+    }
+}
+
+/*PARTE FOOTER */
