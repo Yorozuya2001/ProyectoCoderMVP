@@ -90,12 +90,33 @@
     .main__section__carouselTitleDiv {
       background-color: rgba(255, 86, 119, 0.2);
       border-radius: 100px; }
-    .main__section__div {
+    .main__section__div, .main__section__divContacto {
       background-color: black;
-      border: 5px;
       border-radius: 10px;
       padding-top: 30px;
       border: 5px solid #ff5677; }
+    .main__section__form {
+      margin: 25px;
+      padding-top: 10px;
+      background-color: #ff5677;
+      border-radius: 3px;
+      border: 5px solid #4c3f91; }
+      .main__section__form__div {
+        padding: 20px; }
+    .main__section__divContacto {
+      margin-left: 200px;
+      margin-right: 200px; }
+      @media only screen and (max-width: 576px) {
+        .main__section__divContacto {
+          margin-left: 0px;
+          margin-right: 0px; } }
+      @media only screen and (max-width: 768px) {
+        .main__section__divContacto {
+          margin-left: 0px;
+          margin-right: 0px; } }
+    .main__section__imgAnimation:hover {
+      transform: scale(1.3, 1.3);
+      transition: transform 0.5s; }
 
 /*PARTE FOOTER */
 .footer {
