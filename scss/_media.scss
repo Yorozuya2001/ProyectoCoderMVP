@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .main__section__gridIndex {
         display: grid;
         grid-template-columns: 1fr;
@@ -9,6 +9,17 @@
             "carousel"
             "title_2"
             "parrafo";
+    }
+
+    .main__section__gridGaleriaTap {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 1rem 1rem;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "contentTp"
+            "imageTp";
     }
 }
 
