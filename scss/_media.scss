@@ -1,3 +1,17 @@
+@media screen and (max-width: 991px) {
+    .main__section__gridIndex {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .3fr .5fr .3fr .5fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "title_1"
+            "carousel"
+            "title_2"
+            "parrafo";
+    }
+}
+
 @media screen and (min-width: 992px) {
     .header {
         &__ul {

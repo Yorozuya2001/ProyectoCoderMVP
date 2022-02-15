@@ -99,6 +99,26 @@ $MapColores:(quienesSomos: $color_a,
             border: 5px solid $color_b;
         }
 
+        &__gridIndex {
+            display: grid;
+            grid-template-columns: .5fr 1fr;
+            grid-template-rows: .3fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+                "title_1 title_2"
+                "carousel parrafo";
+
+
+            @each $Contenido in title_1,
+            title_2,
+            carousel,
+            parrafo {
+                &__#{$Contenido} {
+                    grid-area: #{$Contenido};
+                }
+            }
+        }
+
         &__form {
             margin: 25px;
             padding-top: 10px;
