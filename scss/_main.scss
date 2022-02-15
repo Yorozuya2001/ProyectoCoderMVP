@@ -157,13 +157,13 @@ $MapColores:(quienesSomos: $color_a,
             margin-right: 200px;
 
             @include smartphones {
-                margin-left: 0px;
-                margin-right: 0px;
+                margin-left: 5px;
+                margin-right: 5px;
             }
 
             @include tablet {
-                margin-left: 0px;
-                margin-right: 0px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
 
