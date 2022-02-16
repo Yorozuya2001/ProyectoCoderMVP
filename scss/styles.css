@@ -154,6 +154,168 @@
     .main__section__imgAnimation:hover {
       transform: scale(1.3, 1.3);
       transition: transform 0.5s; }
+    .main__section__Color {
+      background-color: #ff5677;
+      color: white; }
+    .main__section__ColorB {
+      background-color: #4c3f91;
+      color: white; }
+    .main__section__gridTAP {
+      display: grid;
+      grid-template-columns: .5fr .5fr .5fr;
+      grid-template-rows: .3fr .3fr .3fr .3fr .5fr .5fr .5fr;
+      gap: 0px 0px;
+      grid-template-areas: "tap_1 tap_2 tap_3" "tap_4 tap_5 tap_6" "tap_7 tap_8 tap_9" "tap_10 tap_11 tap_12" "tap_13 tap_14 tap_15" "tap_16 tap_17 tap_18" "tap_19 tap_20 tap_21"; }
+      .main__section__gridTAP__tap_1 {
+        grid-area: tap_1; }
+      .main__section__gridTAP__tap_2 {
+        grid-area: tap_2; }
+      .main__section__gridTAP__tap_3 {
+        grid-area: tap_3; }
+      .main__section__gridTAP__tap_4 {
+        grid-area: tap_4; }
+      .main__section__gridTAP__tap_5 {
+        grid-area: tap_5; }
+      .main__section__gridTAP__tap_6 {
+        grid-area: tap_6; }
+      .main__section__gridTAP__tap_7 {
+        grid-area: tap_7; }
+      .main__section__gridTAP__tap_8 {
+        grid-area: tap_8; }
+      .main__section__gridTAP__tap_9 {
+        grid-area: tap_9; }
+      .main__section__gridTAP__tap_10 {
+        grid-area: tap_10; }
+      .main__section__gridTAP__tap_11 {
+        grid-area: tap_11; }
+      .main__section__gridTAP__tap_12 {
+        grid-area: tap_12; }
+      .main__section__gridTAP__tap_13 {
+        grid-area: tap_13; }
+      .main__section__gridTAP__tap_14 {
+        grid-area: tap_14; }
+      .main__section__gridTAP__tap_15 {
+        grid-area: tap_15; }
+      .main__section__gridTAP__tap_16 {
+        grid-area: tap_16; }
+      .main__section__gridTAP__tap_17 {
+        grid-area: tap_17; }
+      .main__section__gridTAP__tap_18 {
+        grid-area: tap_18; }
+      .main__section__gridTAP__tap_19 {
+        grid-area: tap_19; }
+      .main__section__gridTAP__tap_20 {
+        grid-area: tap_20; }
+    .main__section__gridSillones {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1.5fr 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0.3rem 0.3rem;
+      grid-auto-flow: row;
+      grid-template-areas: "s1 s1 s1 s1 s2 s2" "s1 s1 s1 s1 s2 s2" "s1 s1 s1 s1 s2 s2" "s8 s8 s8 s9 s9 s9" "s8 s8 s8 s9 s9 s9" "s4 s4 s5 s5 s7 s7" "s4 s4 s5 s5 s7 s7" "s4 s4 s5 s5 s7 s7" "s10 s10 s10 s13 s13 s13" "s10 s10 s10 s13 s13 s13" "s10 s10 s10 s13 s13 s13"; }
+      .main__section__gridSillones__s1 {
+        grid-area: s1; }
+      .main__section__gridSillones__s2 {
+        grid-area: s2; }
+      .main__section__gridSillones__s8 {
+        grid-area: s8; }
+      .main__section__gridSillones__s9 {
+        grid-area: s9; }
+      .main__section__gridSillones__s4 {
+        grid-area: s4; }
+      .main__section__gridSillones__s5 {
+        grid-area: s5; }
+      .main__section__gridSillones__s7 {
+        grid-area: s7; }
+      .main__section__gridSillones__s10 {
+        grid-area: s10; }
+      .main__section__gridSillones__s11 {
+        grid-area: s11; }
+      .main__section__gridSillones__s12 {
+        grid-area: s12; }
+      .main__section__gridSillones__s13 {
+        grid-area: s13; }
+    .main__section__gridMuebles {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 0.3fr 0.3fr 0.5fr 0.5fr 0.2fr 0.2fr 0.5fr 0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr 0.5fr 0.3fr 0.3fr 0.4fr 0.4fr;
+      gap: 0.2rem 0.2rem;
+      grid-auto-flow: row;
+      grid-template-areas: "m12 m12 m6 m6" "m12 m12 m6 m6" "m8 m8 m8 m8" "m8 m8 m8 m8" "m11 m10 m13 m13" "m11 m10 m13 m13" "m15 m15 m15 m15" "m15 m15 m15 m15" "m4 m4 m3 m3" "m4 m4 m3 m3" "m14 m14 m14 m2" "m14 m14 m14 m2" "m1 m1 m1 m1" "m1 m1 m1 m1" "m5 m5 m9 m9" "m5 m5 m9 m9" "m7 m7 m7 m7" "m7 m7 m7 m7"; }
+      .main__section__gridMuebles__m12 {
+        grid-area: m12; }
+      .main__section__gridMuebles__m6 {
+        grid-area: m6; }
+      .main__section__gridMuebles__m8 {
+        grid-area: m8; }
+      .main__section__gridMuebles__m11 {
+        grid-area: m11; }
+      .main__section__gridMuebles__m10 {
+        grid-area: m10; }
+      .main__section__gridMuebles__m13 {
+        grid-area: m13; }
+      .main__section__gridMuebles__m15 {
+        grid-area: m15; }
+      .main__section__gridMuebles__m4 {
+        grid-area: m4; }
+      .main__section__gridMuebles__m3 {
+        grid-area: m3; }
+      .main__section__gridMuebles__m14 {
+        grid-area: m14; }
+      .main__section__gridMuebles__m2 {
+        grid-area: m2; }
+      .main__section__gridMuebles__m1 {
+        grid-area: m1; }
+      .main__section__gridMuebles__m5 {
+        grid-area: m5; }
+      .main__section__gridMuebles__m9 {
+        grid-area: m9; }
+      .main__section__gridMuebles__m7 {
+        grid-area: m7; }
+    .main__section__grillaSJ {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 0.4fr 0.4fr 0.4fr 0.4fr 0.5fr 1fr 0.4fr 0.4fr 0.5fr 0.4fr;
+      gap: 0.3rem 0.3rem;
+      grid-auto-flow: row;
+      grid-template-areas: "s1 s2 s3" "s1 s2 s3" "j2 j2 j2" "j3 j6 s4" "j3 j6 s4" "j8 j8 j8" "j8 j8 j8" "s6 s7 s8" "s6 s7 s8" "s5 j1 j1" "s5 j1 j1" "j7 j7 j7" "j7 j7 j7" "j4 j4 s1c" "j4 j4 s1c" "j5 j5 s2c" "j5 j5 s2c"; }
+      .main__section__grillaSJ__s1 {
+        grid-area: s1; }
+      .main__section__grillaSJ__s2 {
+        grid-area: s2; }
+      .main__section__grillaSJ__s3 {
+        grid-area: s3; }
+      .main__section__grillaSJ__j2 {
+        grid-area: j2; }
+      .main__section__grillaSJ__j3 {
+        grid-area: j3; }
+      .main__section__grillaSJ__j6 {
+        grid-area: j6; }
+      .main__section__grillaSJ__s4 {
+        grid-area: s4; }
+      .main__section__grillaSJ__j8 {
+        grid-area: j8; }
+      .main__section__grillaSJ__s6 {
+        grid-area: s6; }
+      .main__section__grillaSJ__s7 {
+        grid-area: s7; }
+      .main__section__grillaSJ__s8 {
+        grid-area: s8; }
+      .main__section__grillaSJ__s5 {
+        grid-area: s5; }
+      .main__section__grillaSJ__j1 {
+        grid-area: j1; }
+      .main__section__grillaSJ__j7 {
+        grid-area: j7; }
+      .main__section__grillaSJ__j4 {
+        grid-area: j4; }
+      .main__section__grillaSJ__j5 {
+        grid-area: j5; }
+      .main__section__grillaSJ__s1c {
+        grid-area: s1c; }
+      .main__section__grillaSJ__s2c {
+        grid-area: s2c; }
 
 /*PARTE FOOTER */
 .footer {
