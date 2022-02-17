@@ -9,3 +9,9 @@
         @content;
     }
 }
+
+@mixin px475 {
+    @media only screen and (max-width: 475px) {
+        @content;
+    }
+}
