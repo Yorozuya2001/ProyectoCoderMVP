@@ -21,6 +21,7 @@ $MapColores:(quienesSomos: $color_a,
     min-height: 100%;
     background-size: cover;
     background-attachment: fixed;
+    object-fit: cover;
 
     .titulo {
         font-size: ($fuente)+4;
@@ -230,7 +231,8 @@ $MapColores:(quienesSomos: $color_a,
             tap_17,
             tap_18,
             tap_19,
-            tap_20 {
+            tap_20,
+            tap_21 {
                 &__#{$Tap} {
                     grid-area: #{$Tap};
                 }
@@ -259,6 +261,10 @@ $MapColores:(quienesSomos: $color_a,
                     opacity: 1;
                 }
 
+            }
+
+            div img {
+                object-fit: cover;
             }
         }
 

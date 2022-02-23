@@ -47,7 +47,8 @@
   background-image: url(../images/fondo.jpg);
   min-height: 100%;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  object-fit: cover; }
   .main .titulo {
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
@@ -216,6 +217,8 @@
         grid-area: tap_19; }
       .main__section__gridTAP__tap_20 {
         grid-area: tap_20; }
+      .main__section__gridTAP__tap_21 {
+        grid-area: tap_21; }
       .main__section__gridTAP .c-img {
         position: relative;
         display: flex;
@@ -233,6 +236,8 @@
           opacity: 0; }
         .main__section__gridTAP .c-img:hover .txt {
           opacity: 1; }
+      .main__section__gridTAP div img {
+        object-fit: cover; }
     .main__section__gridSillones {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
