@@ -232,12 +232,32 @@
           background-color: rgba(255, 86, 119, 0.9);
           padding: 10px 20px;
           width: 100%;
-          transition: all .3s;
-          opacity: 0; }
-        .main__section__gridTAP .c-img:hover .txt {
+          transition: all .5s;
           opacity: 1; }
+          .main__section__gridTAP .c-img .txt .parrafoT {
+            font-size: 1.5rem;
+            color: white; }
+            @media only screen and (max-width: 576px) {
+              .main__section__gridTAP .c-img .txt .parrafoT {
+                font-size: 1rem;
+                color: white; } }
+          @media only screen and (max-width: 768px) {
+            .main__section__gridTAP .c-img .txt {
+              top: 170px; } }
+          @media only screen and (max-width: 576px) {
+            .main__section__gridTAP .c-img .txt {
+              top: 0px;
+              padding: 5px 5px;
+              height: 100%; } }
+        .main__section__gridTAP .c-img:hover .txt {
+          opacity: 1;
+          cursor: pointer; }
       .main__section__gridTAP div img {
         object-fit: cover; }
+      .main__section__gridTAP div img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 0.5s ease;
+        cursor: pointer; }
     .main__section__gridSillones {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -423,12 +443,14 @@
     .main__section__form .main__section__form__div {
       padding: 10px; } }
 
-@media screen and (max-width: 1024px) and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .header__ul__li {
     border-radius: 3px;
     border-top: none; } }
 
-@media screen and (max-width: 1024px) and (min-width: 1174px) {
+@media screen and (min-width: 1174px) {
   .header__ul__li {
     border-radius: 3px;
-    border-top: 3px solid #4c3f91; } }
+    border-top: 3px solid #4c3f91; }
+  .main__section__PregFrec {
+    height: 100vh; } }
