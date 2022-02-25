@@ -30,7 +30,23 @@ $MapColores:(quienesSomos: $color_a,
         color: white;
 
         @include tablet {
+            font-size: ($fuente)+2.5;
+        }
+
+        @include smartphones {
             font-size: ($fuente)+2;
+        }
+
+    }
+
+    .subTitulo {
+        font-size: ($fuente)+2;
+        font-family: 'Bebas Neue', sans-serif;
+        -webkit-text-stroke: 0.1px black;
+        color: white;
+
+        @include tablet {
+            font-size: ($fuente)+1.5;
         }
 
         @include smartphones {
@@ -149,6 +165,17 @@ $MapColores:(quienesSomos: $color_a,
 
             &__div {
                 padding: 20px;
+            }
+
+            .btn-primary {
+                color: $color_def;
+                background-color: $color_a;
+                border-color: $color_d;
+            }
+
+            .form-check-input:checked {
+                background-color: $color_a;
+                border-color: $color_a;
             }
         }
 

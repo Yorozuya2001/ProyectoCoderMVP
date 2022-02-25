@@ -24,8 +24,8 @@
 
 <body>
     <header class="header sticky-lg-top">
-        <nav class="navbar navbar-expand-lg navbar-light mx-auto overflow-hidden">
-            <div class="container-fluid" data-aos="fade-down">
+        <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+            <div class="container-fluid">
                 <img class="header__logo" src="../logos/Logo.png" alt="imagen de logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -136,22 +136,22 @@
                                         <div class="row g-3">
                                             <div class="col">
                                                 <input type="text" class="form-control" placeholder="Nombre/s"
-                                                    aria-label="Nombre">
+                                                    aria-label="Nombre" required>
                                             </div>
                                             <div class="col">
                                                 <input type="text" class="form-control" placeholder="Apellido/s"
-                                                    aria-label="Apellido">
+                                                    aria-label="Apellido" required>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault1">
+                                                    id="flexRadioDefault1" required>
                                                 <label class="form-check-label" for="flexRadioDefault1">
                                                     Soy de Ciudad Autonoma Buenos Aires.
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault2" checked>
+                                                    id="flexRadioDefault2" checked required>
                                                 <label class="form-check-label" for="flexRadioDefault2">
                                                     Soy del Interior del País.
                                                 </label>
@@ -159,17 +159,17 @@
                                             <div class="mb-3">
                                                 <label for="exampleInputEmail1" class="form-label">Email</label>
                                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
+                                                    aria-describedby="emailHelp" required>
                                                 <div id="emailHelp" class="form-text">example@hotmail.com</div>
                                             </div>
                                             <div class="row">
                                                 <div class="col">
-                                                    <input type="tel" class="form-control" placeholder="Contacto"
-                                                        aria-label="Número de telefono">
+                                                    <input type="tel" class="form-control" placeholder="Teléfono"
+                                                        aria-label="Número de telefono" required>
                                                 </div>
                                                 <div class="col">
                                                     <input type="text" class="form-control" placeholder="Ciudad"
-                                                        aria-label="Ciudad">
+                                                        aria-label="Ciudad" required>
                                                 </div>
                                                 <div class="mb-3 pt-2">
                                                     <label for="Consulta" class="form-label">Escriba su consulta
@@ -183,7 +183,7 @@
                                                     <input class="form-check-input" type="checkbox" value=""
                                                         id="invalidCheck" required>
                                                     <label class="form-check-label" for="invalidCheck">
-                                                        Aceptas que los datos solicitados son correctos y válidos.
+                                                        Verifica que los datos solicitados son correctos y válidos.
                                                     </label>
                                                     <div class="invalid-feedback">
                                                         You must agree before submitting.
@@ -204,8 +204,8 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container overflow-hidden">
-            <div class="footer__Div d-flex  align-items-center justify-content-between" data-aos="fade-up">
+        <div class="container">
+            <div class="footer__Div d-flex  align-items-center justify-content-between">
                 <div class="d-flex flex-column align-items-center">
                     <p class="footer__Div__parrafoFooter"> Muebles Valencia Project 2022&#169.</p>
                     <a class="footer__Div__aFooter" href="../preguntas-frecuentes.html">Preguntas Frecuentes</a>
