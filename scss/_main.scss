@@ -22,6 +22,7 @@ $MapColores:(quienesSomos: $color_a,
     background-size: cover;
     background-attachment: fixed;
     object-fit: cover;
+    position: sticky;
 
     .titulo {
         font-size: ($fuente)+4;
